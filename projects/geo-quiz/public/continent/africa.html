@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Quiz | Africa</title>
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="continent.js"></script>
+    <script defer src="../js/utils.js"></script>
+</head>
+<body>
+    <button id="back" onclick="goBack()">⇦</button>
+    
+    <div id="home" class="container">
+        <h1>Africa</h1>
+        
+        <div class="list">
+            <button onclick="redirect('region=Africa')">Africa</button>
+            <br>
+            <button onclick="redirect('subregion=Northern Africa')">Northern Africa</button>
+            <button onclick="redirect('subregion=Middle Africa')">Middle Africa</button>
+            <button onclick="redirect('subregion=Western Africa')">Western Africa</button>
+            <button onclick="redirect('subregion=Southern Africa')">Southern Africa</button>
+            <button onclick="redirect('subregion=Eastern Africa')">Eastern Africa</button>
+            <br>
+            <button onclick="redirect('regionalBlocs=AU')">AU (African Union)</button>
+            <button onclick="redirect('regionalBlocs=AL')">AL (Arab League)</button>
+        </div>
+    </div>
+</body>
+</html>

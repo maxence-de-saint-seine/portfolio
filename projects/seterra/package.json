@@ -1,0 +1,22 @@
+{
+  "name": "seterra",
+  "version": "1.0.0",
+  "description": "my seterra clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "seterra",
+    "geography"
+  ],
+  "author": "Maxence de Saint-Seine",
+  "license": "ISC",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.6",
+    "mkdirp": "^1.0.4",
+    "node-fetch": "^2.6.1"
+  }
+}

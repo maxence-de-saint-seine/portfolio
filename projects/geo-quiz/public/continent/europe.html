@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Quiz | Europe</title>
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="continent.js"></script>
+    <script defer src="../js/utils.js"></script>
+</head>
+<body>
+    <button id="back" onclick="goBack()">⇦</button>
+    
+    <div id="home" class="container">
+        <h1>Europe</h1>
+        
+        <div class="list" id='list'>
+            <button onclick="redirect('region=Europe')">Europe</button>
+            <br>
+            <button onclick="redirect('subregion=Northern Europe')">Northern Europe</button>
+            <button onclick="redirect('subregion=Southern Europe')">Southern Europe</button>
+            <button onclick="redirect('subregion=Western Europe')">Western Europe</button>
+            <button onclick="redirect('subregion=Eastern Europe')">Eastern Europe</button>
+            <br>
+            <button onclick="redirect('regionalBlocs=EU')">EU (European Union)</button>
+            <button onclick="redirect('regionalBlocs=EFTA')">EFTA (European Free Trade Association)</button>
+            <button onclick="redirect('regionalBlocs=CEFTA')">CEFTA (Central European Free Trade Agreement)</button>
+        </div>
+    </div>
+</body>
+</html>

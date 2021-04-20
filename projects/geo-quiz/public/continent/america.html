@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Quiz | America</title>
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="continent.js"></script>
+    <script defer src="../js/utils.js"></script>
+</head>
+<body>
+    <button id="back" onclick="goBack()">⇦</button>
+    
+    <div id="home" class="container">
+        <h1>South America</h1>
+        
+        <div class="list">
+            <button onclick="redirect('region=America')">America</button>
+            <br>
+            <button onclick="redirect('subregion=Northern America')">Northern America</button>
+            <button onclick="redirect('subregion=Central America')">Central America</button>
+            <button onclick="redirect('subregion=South America')">South America</button>
+            <button onclick="redirect('subregion=Caribbean')">Caribbean</button>
+            <br>
+            <button onclick="redirect('regionalBlocs=CARICOM')">CARICOM (Caribbean Community)</button>
+            <button onclick="redirect('regionalBlocs=PA')">PA (Pacific Alliance)</button>
+            <button onclick="redirect('regionalBlocs=USAN')">USAN (Union of South American Nations)</button>
+            <button onclick="redirect('regionalBlocs=CAIS')">CAIS (Central American Integration System)</button>
+            <button onclick="redirect('regionalBlocs=NAFTA')">NAFTA (North American Free Trade Agreement)</button>
+
+
+        </div>
+    </div>
+</body>
+</html>

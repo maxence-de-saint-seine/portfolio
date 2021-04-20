@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Quiz | World</title>
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="continent.js"></script>
+    <script defer src="../js/utils.js"></script>
+</head>
+<body>
+    <button id="back" onclick="goBack()">⇦</button>
+    
+    <div id="home" class="container">
+        <h1>World</h1>
+        
+        <div class="list">
+            <button onclick="redirect('')">World</button>
+            <br>
+            <button onclick="redirect('languages=English')">English</button>
+            <button onclick="redirect('languages=French')">French</button>
+            <button onclick="redirect('languages=Arabic')">Arabic</button>
+            <button onclick="redirect('languages=Spanish')">Spanish</button>
+            <button onclick="redirect('languages=Portuguese')">Portuguese</button>
+            <button onclick="redirect('languages=German')">German</button>
+            <button onclick="redirect('languages=Russian')">Russian</button>
+            <br>
+            <button onclick="redirect('subregion=')">Antarctica</button>
+        </div>
+    </div>
+</body>
+</html>

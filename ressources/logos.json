@@ -1,0 +1,14 @@
+{
+    "mise en avant": "ressources/logos/promo.png",
+    "js":"ressources/logos/js.png",
+    "nodejs":"ressources/logos/nodejs.png",
+    "3D":"ressources/logos/3D.png",
+    "arduino":"ressources/logos/arduino.png",
+    "python":"ressources/logos/py.png",
+
+    "API":"ressources/logos/api.png",
+    "raspberry pi":"ressources/logos/raspi.png",
+    "application":"ressources/logos/app.png",
+    "jeu":"ressources/logos/jeux.png",
+    "NFC":"ressources/logos/nfc.png"
+}

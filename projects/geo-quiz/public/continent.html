@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Quiz | Maps</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/utils.js"></script>
+    <base href="..">
+</head>
+<body>
+    <button id="back" onclick="goBack()">⇦</button>
+    
+    <div id="home" class="container">
+        <h1>Geo Quiz</h1>
+        
+        <div class="list">
+            <button onclick="redirect('world')">World</button>
+            <br>
+            <button onclick="redirect('europe')">Europe</button>
+            <button onclick="redirect('america')">America</button>
+            <button onclick="redirect('africa')">Africa</button>
+            <button onclick="redirect('asia')">Asia</button>
+            <button onclick="redirect('oceania')">Oceania</button>
+        </div>
+    </div>
+
+    <script>
+        function redirect(continent){
+            const urlParams = new URLSearchParams(window.location.search)
+            const mode = urlParams.get('mode')
+            window.location.href = `public/continent/${continent}.html?mode=${mode}`
+        }
+    </script>
+</body>
+</html>

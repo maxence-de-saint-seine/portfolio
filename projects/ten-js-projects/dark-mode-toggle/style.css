@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem;
+
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+body.dark{
+    background-color: #1f1f1f;
+    color: white;
+}
+
+label{
+    display: inline-block;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+    user-select: none;
+
+    transition: background 0.3s linear, color 0.3s linear;
+}
+body.dark label{
+    background-color: white;
+}
+
+.toggle-container{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+input{
+    visibility: hidden;
+}

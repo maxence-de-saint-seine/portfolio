@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Quiz | Asia</title>
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="continent.js"></script>
+    <script defer src="../js/utils.js"></script>
+    <base href="/">
+</head>
+<body>
+    <button id="back" onclick="goBack()">⇦</button>
+    
+    <div id="home" class="container">
+        <h1>Asia</h1>
+        
+        <div class="list">
+            <button onclick="redirect('region=Asia')">Asia</button>
+            <br>
+            <button onclick="redirect('subregion=Sourthern Asia')">Sourthern Asia</button>
+            <button onclick="redirect('subregion=Western Asia')">Western Asia</button>
+            <button onclick="redirect('subregion=South-Eastern Asia')">South-Eastern Asia</button>
+            <button onclick="redirect('subregion=Eastern Asia')">Eastern Asia</button>
+            <button onclick="redirect('subregion=Central Asia')">Central Asia</button>
+            <br>
+            <button onclick="redirect('regionalBlocs=EEU')">EEU (Eurasian Economic Union)</button>
+            <button onclick="redirect('regionalBlocs=AL')">AL (Arab League)</button>
+            <button onclick="redirect('regionalBlocs=ASEAN')">ASEAN (Association of Southeast Asian Nations)</button>
+            <button onclick="redirect('regionalBlocs=SAARC')">SAARC (South Asian Association for Regional Cooperation)</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+[
+{
+    "title": "Skribbl Clone",
+    "imgSrc": "projects/images/skribbl.jpg",
+    "categories": ["js", "nodejs", "jeu"],
+    "link": "/",
+    "description": "Clone du jeu de dessin skibbl.com\nUtilise les sockets, un nodejs NodeJS et p5.js pour le canvas"
+},
+
+{
+    "title": "Gartic Phone Clone",
+    "imgSrc": "projects/images/gartic-phone.png",
+    "categories": ["mise en avant", "js", "nodejs", "jeu"],
+    "link": "/",
+    "description": "Un jeu de dessin en ligne qui utilise un server NodeJS, sockect.io et p5.js"
+},
+
+{
+    "title": "Zoom Peer to Peer",
+    "imgSrc": "projects/images/zoom.png",
+    "categories": ["mise en avant", "js", "application"],
+    "link": "/projects/zoom",
+    "description": "Utilise peerjs pour une version peer to peer de zoom\nEn developpement, video deja fonctionnelle"
+},
+
+{
+    "title": "Geo Quiz",
+    "imgSrc": "projects/images/geo-quiz.png",
+    "categories": ["mise en avant", "js", "jeu", "API"],
+    "link": "/projects/geo-quiz/public",
+    "description": "Utilise une API pour générer des quiz\nUtilise les variables égales a des fonctions pour afficher les differents types d'élément"
+},
+
+{
+    "title": "Seterra Clone",
+    "imgSrc": "projects/images/seterra.png",
+    "categories": ["mise en avant", "js", "jeu"],
+    "link": "/projects/seterra/public/map/franceDepartments.html",
+    "description": "Cliquer sur la bonne region\nUtilise une database de cartes en .svg. Les regions sont rendus cliquable et le nom de la region est recuperé de la metadonné"
+},
+
+{
+    "title": "Map Data Visualization",
+    "imgSrc": "projects/images/map-data-visualization.png",
+    "categories": ["mise en avant", "js", "API"],
+    "link": "/projects/map",
+    "description": "Affiche les données d'un csv sur une carte interactive avec une API"
+},
+
+{
+    "title": "Sudoku Solver",
+    "imgSrc": "projects/images/sudoku-solver.png",
+    "categories": ["mise en avant", "python", "application"],
+    "link": "/projects/sudoku-solver",
+    "description": "Utilise les fonctions recursives pour resoudre les sudokus"
+},
+
+{
+    "title": "Fractal Tree",
+    "imgSrc": "projects/images/fractal-tree.png",
+    "categories": ["mise en avant", "js"],
+    "link": "/projects/fractal",
+    "description": "Génère une fractale interactive"
+},
+
+{
+    "title": "Minesweeper",
+    "imgSrc": "projects/images/minesweeper.png",
+    "categories": ["mise en avant", "js", "jeu"],
+    "link": "/projects/minesweeper",
+    "description": "Démineur en JS\nPlateau dynamique"
+},
+
+
+
+
+
+{
+    "title": "Porte Cle en 3D",
+    "imgSrc": "projects/images/.png",
+    "categories": ["3D"],
+    "link": "/",
+    "description": "Un porte-cle plat au format carte bancaire\nPorte passe-navigo au dos"
+},
+
+{
+    "title": "NFC",
+    "imgSrc": "ressources/logos/nfc.png",
+    "categories": ["NFC"],
+    "link": "/",
+    "description": "Utilisation des tags NFC pour des applications de domotique"
+},
+
+{
+    "title": "ESP8266",
+    "imgSrc": "projects/images/.png",
+    "categories": ["arduino"],
+    "link": "/",
+    "description": "Coder des ESP avec le framework arduino pour des applications de domotique"
+},
+{
+    "title": "Streaming Moonligth",
+    "imgSrc": "projects/images/moonlight.png",
+    "categories": ["raspberry pi"],
+    "link": "/",
+    "description": "Utilise un Raspberry Pi pour streamer un écran sur la télé"
+},
+{
+    "title": "AdBlock sur le Reseau",
+    "imgSrc": "projects/images/pi-hole.png",
+    "categories": ["raspberry pi"],
+    "link": "/",
+    "description": "Un Raspberry Pi root les reponses du reseau et retire les publicités avec un système de blacklist / whitelist"
+},
+{
+    "title": "Monitorer RaspberryPi",
+    "imgSrc": "projects/images/rpi-monitor.png",
+    "categories": ["raspberry pi"],
+    "link": "/",
+    "description": "Configuration de module php pour monitorer les performances du Raspberry\nRend compte de l'état des services avec une LED branchée au GPIO"
+},
+{
+    "title": "Wordpress",
+    "imgSrc": "projects/images/wordpress.png",
+    "categories": ["raspberry pi"],
+    "link": "/",
+    "description": "Mise en place d'un portfolio (pas celui-ci) avec wordpress"
+},
+{
+    "title": "Stream Deck",
+    "imgSrc": "projects/images/stream-deck.jpg",
+    "categories": ["mise en avant", "arduino", "3D"],
+    "link": "/",
+    "description": "Un arduino simule un clavier\nUne matrice de boutons et des potentiomètres permettent de modifier le volume et activer des raccourcis"
+},
+{
+    "title": "Generateur de Mots",
+    "imgSrc": "projects/images/.png",
+    "categories": ["js"],
+    "link": "/projects/word-generator",
+    "description": "[En developpement]\nUtilise le dictionnaire francais pour predire la probabilité qu'une lettre en suive x autres\nCréer une matrice des probabilités et l'utilise pour génèrer des mots"
+},
+
+
+
+
+{
+    "title": "Commande Restaurant",
+    "imgSrc": "projects/images/restaurant.png",
+    "categories": ["mise en avant", "python", "application"],
+    "link": "/projects/restaurant",
+    "description": "Interface graphique avec python\nPermet de prendre des commande pour plusieurs tables et fournir un json avec le total a payer"
+},
+
+{
+    "title": "snake",
+    "imgSrc": "projects/images/snake.png",
+    "categories": ["js", "jeu"],
+    "link": "/projects/snake",
+    "description": "Snake en JS\nPlateau et framerate dynamique"
+}
+
+]

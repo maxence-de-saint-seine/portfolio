@@ -1,0 +1,49 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1, maximum-scale=1.0, minimal-ui"/>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <title>Country Shape</title>
+</head>
+
+<body>
+    <div id="instruction">Guess the country</div>
+    <div id="timer">0s</div>
+    <div id="score">100%</div>
+
+    <select id="filterSelection" onchange="changeFilter();">
+        <option value="none">FILTER</option>
+        <option value="Africa">Africa</option>
+        <option value="Americas">Americas</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Oceania">Oceania</option>
+
+        <option value="none"></option>
+
+        <option value="EU">European Union</option>
+        <option value="EFTA">EFTA (European Free Trade Association)</option>
+        <option value="CARICOM">CARICOM (Caribbean Community)</option>
+        <option value="PA">PA (Pacific Alliance)</option>
+        <option value="AU">AU (African Union)</option>
+        <option value="USAN">USAN (Union of South American Nations)</option>
+        <option value="EEU">EEU (Eurasian Economic Union)</option>
+        <option value="AL">AL (Arab League)</option>
+        <option value="ASEAN">ASEAN (Association of Southeast Asian Nations)</option>
+        <option value="CAIS">CAIS (Central American Integration System)</option>
+        <option value="CEFTA">CEFTA (Central European Free Trade Agreement)</option>
+        <option value="NAFTA">NAFTA (North American Free Trade Agreement)</option>
+        <option value="SAARC">SAARC (South Asian Association for Regional Cooperation)</option>
+    </select>
+
+
+    <form id="guessForm">
+        Guess: <input type="text" id="guessInput" autofocus autocomplete="off"/><br/>
+        <input type="submit" style="display: none;"/>
+    </form>
+
+
+    <div id="mapContainer" class="mapContainer"></div>
+
+
+</body>

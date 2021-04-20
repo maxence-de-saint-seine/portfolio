@@ -1,0 +1,26 @@
+body{
+    background-color: grey;
+    font-family: inherit;
+}
+
+
+@media only screen{
+    #questionContainer{
+        font-size: 3rem;
+        margin: 50px;
+        max-width: 100%;        
+    }
+    #questionContainer.shape img{
+        max-width: 100%;
+        max-height: 300px;
+        filter:
+            invert(100%)
+            /* white to off-white */
+            sepia(100%)
+            /* off-white to yellow */
+            saturate(10000%)
+            /* do whatever you want with yellow */
+            hue-rotate(50deg)
+            brightness(0.75);
+    }
+}
