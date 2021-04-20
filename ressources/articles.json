@@ -10,7 +10,7 @@
 {
     "title": "Gartic Phone Clone",
     "imgSrc": "projects/images/gartic-phone.png",
-    "categories": ["mise en avant", "js", "nodejs", "jeu"],
+    "categories": ["mis en avant", "js", "nodejs", "jeu"],
     "link": "/",
     "description": "Un jeu de dessin en ligne qui utilise un server NodeJS, sockect.io et p5.js"
 },
@@ -18,7 +18,7 @@
 {
     "title": "Zoom Peer to Peer",
     "imgSrc": "projects/images/zoom.png",
-    "categories": ["mise en avant", "js", "application"],
+    "categories": ["mis en avant", "js", "application"],
     "link": "/projects/zoom",
     "description": "Utilise peerjs pour une version peer to peer de zoom\nEn developpement, video deja fonctionnelle"
 },
@@ -26,7 +26,7 @@
 {
     "title": "Geo Quiz",
     "imgSrc": "projects/images/geo-quiz.png",
-    "categories": ["mise en avant", "js", "jeu", "API"],
+    "categories": ["mis en avant", "js", "jeu", "API"],
     "link": "/projects/geo-quiz/public",
     "description": "Utilise une API pour générer des quiz\nUtilise les variables égales a des fonctions pour afficher les differents types d'élément"
 },
@@ -34,7 +34,7 @@
 {
     "title": "Seterra Clone",
     "imgSrc": "projects/images/seterra.png",
-    "categories": ["mise en avant", "js", "jeu"],
+    "categories": ["mis en avant", "js", "jeu"],
     "link": "/projects/seterra/public/map/franceDepartments.html",
     "description": "Cliquer sur la bonne region\nUtilise une database de cartes en .svg. Les regions sont rendus cliquable et le nom de la region est recuperé de la metadonné"
 },
@@ -42,7 +42,7 @@
 {
     "title": "Map Data Visualization",
     "imgSrc": "projects/images/map-data-visualization.png",
-    "categories": ["mise en avant", "js", "API"],
+    "categories": ["mis en avant", "js", "API"],
     "link": "/projects/map",
     "description": "Affiche les données d'un csv sur une carte interactive avec une API"
 },
@@ -50,7 +50,7 @@
 {
     "title": "Sudoku Solver",
     "imgSrc": "projects/images/sudoku-solver.png",
-    "categories": ["mise en avant", "python", "application"],
+    "categories": ["mis en avant", "python", "application"],
     "link": "/projects/sudoku-solver",
     "description": "Utilise les fonctions recursives pour resoudre les sudokus"
 },
@@ -58,7 +58,7 @@
 {
     "title": "Fractal Tree",
     "imgSrc": "projects/images/fractal-tree.png",
-    "categories": ["mise en avant", "js"],
+    "categories": ["mis en avant", "js"],
     "link": "/projects/fractal",
     "description": "Génère une fractale interactive"
 },
@@ -66,7 +66,7 @@
 {
     "title": "Minesweeper",
     "imgSrc": "projects/images/minesweeper.png",
-    "categories": ["mise en avant", "js", "jeu"],
+    "categories": ["mis en avant", "js", "jeu"],
     "link": "/projects/minesweeper",
     "description": "Démineur en JS\nPlateau dynamique"
 },
@@ -124,12 +124,12 @@
     "imgSrc": "projects/images/wordpress.png",
     "categories": ["raspberry pi"],
     "link": "/",
-    "description": "Mise en place d'un portfolio (pas celui-ci) avec wordpress"
+    "description": "mis en place d'un portfolio (pas celui-ci) avec wordpress"
 },
 {
     "title": "Stream Deck",
     "imgSrc": "projects/images/stream-deck.jpg",
-    "categories": ["mise en avant", "arduino", "3D"],
+    "categories": ["mis en avant", "arduino", "3D"],
     "link": "/",
     "description": "Un arduino simule un clavier\nUne matrice de boutons et des potentiomètres permettent de modifier le volume et activer des raccourcis"
 },
@@ -147,7 +147,7 @@
 {
     "title": "Commande Restaurant",
     "imgSrc": "projects/images/restaurant.png",
-    "categories": ["mise en avant", "python", "application"],
+    "categories": ["mis en avant", "python", "application"],
     "link": "/projects/restaurant",
     "description": "Interface graphique avec python\nPermet de prendre des commande pour plusieurs tables et fournir un json avec le total a payer"
 },

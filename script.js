@@ -14,6 +14,16 @@ async function load(){
 }
 
 async function loadCategories() {
+    const navContainer = document.getElementById('header')
+    const filterButton = document.createElement('button')
+    filterButton.id = 'filter-button'
+    filterButton.innerText = 'catégories'
+    filterButton.addEventListener('click', () => {
+        selectCategoriesContainer.classList.toggle('active')
+    })
+    header.appendChild(filterButton)
+
+
     let result = await fetch('ressources/logos.json')
     let json = await result.json()
     let listCategories = []
@@ -31,7 +41,9 @@ async function loadArticles(category) {
     let json = await result.json()
 
     json.forEach(article => {
-        if(category != 'all'){descriptionContainer.innerText = 'Catégorie : ' + category}
+        if(category == 'mis en avant') descriptionContainer.innerText = 'Projets mis en avant'
+        else if (category == 'all') descriptionContainer.innerText = 'Tous les projets'
+        else { descriptionContainer.innerText = 'Catégorie : ' + category }
         if (article.categories.indexOf(category) != -1 || category == 'all') {
             displayArticle(article)
         }
