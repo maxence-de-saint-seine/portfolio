@@ -29,7 +29,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 72px;
+    height: auto;
+    padding: 10px 10px;
 }
 nav ul{
     display: flex;
@@ -60,6 +61,10 @@ nav ul li a{
     margin-right: 20px;
 }
 /*#endregion*/
+
+#description{
+    text-align: center;
+}
 
 /*#region ITEMS */
 .grid{

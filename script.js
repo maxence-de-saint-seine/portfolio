@@ -1,8 +1,17 @@
 const grid = document.getElementById('grid')
 const selectCategoriesContainer = document.getElementById('selectCategoriesContainer')
+const descriptionContainer = document.getElementById('description')
 
-if(selectCategoriesContainer) loadCategories()
-loadArticles(grid.getAttribute('category'))
+let logos = '';
+let logosJson = {};
+
+load()
+
+async function load(){
+    await loadLogos()
+    if (selectCategoriesContainer) loadCategories()
+    loadArticles(grid.getAttribute('category'))
+}
 
 async function loadCategories() {
     let result = await fetch('ressources/logos.json')
@@ -22,6 +31,7 @@ async function loadArticles(category) {
     let json = await result.json()
 
     json.forEach(article => {
+        if(category != 'all'){descriptionContainer.innerText = 'Catégorie : ' + category}
         if (article.categories.indexOf(category) != -1 || category == 'all') {
             displayArticle(article)
         }
@@ -85,10 +95,13 @@ async function createCategoriesLinks(categories) {
     return categoriesLinks
 }
 
+async function loadLogos() {
+    logos = await fetch('ressources/logos.json')
+    logosJson = await logos.json()    
+}
+
 async function getLogo(name) {
-    let result = await fetch('ressources/logos.json')
-    let json = await result.json()
-    if (json[name]) return json[name]
+    if (logosJson[name]) return logosJson[name]
     return null
 }
 

@@ -31,13 +31,19 @@
 
     <div id="selectCategoriesContainer" class="wrapper"><strong>Filtres </strong></div>
 
-    <div id="grid" class="grid wrapper"></div>
-    <script>
-        let searchParams = new URLSearchParams(window.location.search)
-        let category = searchParams.get('category')
-        if(!category) category = 'all'
-        document.getElementById('grid').setAttribute('category', category)
-    </script>
+    <div class="wrapper">
+
+        <h2 id="description">Tous les projets</h2>
+
+        <div id="grid" class="grid"></div>
+        <script>
+            let searchParams = new URLSearchParams(window.location.search)
+            let category = searchParams.get('category')
+            if(!category) category = 'all'
+            document.getElementById('grid').setAttribute('category', category)
+        </script>
+
+    </div>
 
 
 </body>
