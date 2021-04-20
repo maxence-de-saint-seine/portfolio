@@ -17,7 +17,7 @@ async function loadCategories() {
     const navContainer = document.getElementById('header')
     const filterButton = document.createElement('button')
     filterButton.id = 'filter-button'
-    filterButton.innerText = 'filtres'
+    filterButton.innerText = 'Filtres'
     filterButton.addEventListener('click', () => {
         selectCategoriesContainer.classList.toggle('active')
     })

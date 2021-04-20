@@ -70,13 +70,21 @@ nav ul li a{
 
 #filter-button{
     position: absolute;
-    right: 5vw;
     background-color: #fff;
     padding: 10px;
     border: none;
+    font-size: 0.9rem;
+    font-weight: normal;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    right: 5vw;
+}
+@media screen and (max-width: 450px){
+    #filter-button{
+        right: 0;
+        border-bottom-right-radius: 0;
+    }
 }
 
 #selectCategoriesContainer{
