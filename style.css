@@ -70,12 +70,12 @@ nav ul li a{
 
 #filter-button{
     position: absolute;
-    float: right;
+    right: 0;
     background-color: #fff;
     padding: 10px;
     border: none;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    
+    border-bottom-left-radius: 5px;
 }
 
 #selectCategoriesContainer{
