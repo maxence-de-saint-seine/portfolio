@@ -79,6 +79,7 @@ nav ul li a{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     right: 5vw;
+    cursor: pointer;
 }
 @media screen and (max-width: 450px){
     #filter-button{
@@ -117,6 +118,7 @@ nav ul li a{
     width: 325px;
     height: 180px;
     object-fit: cover;
+    border-radius: 10px;
     
 }
 .item{
@@ -128,17 +130,29 @@ nav ul li a{
     margin-bottom: 20px;
     width: 325px;
     height: auto;
+    padding: .4rem;
 
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
 
     position: relative;
 }
 .article-title{
     font-size: 20px;
-    text-align: center;
     margin: 5px 5px;
+    margin-bottom: 20px;  
+    position: relative;
+}
+.article-title::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: -20px;
+    bottom: -7px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    background-color: #00B294;
 }
 .article-description{
     margin: 10px 10px;
