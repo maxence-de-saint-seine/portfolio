@@ -16,11 +16,11 @@
 },
 
 {
-    "title": "Zoom Peer to Peer",
-    "imgSrc": "projects/images/zoom.png",
-    "categories": ["mis en avant", "js", "application"],
-    "link": "/projects/zoom",
-    "description": "Utilise peerjs pour une version peer to peer de zoom\nEn developpement, video deja fonctionnelle"
+    "title": "Drag List",
+    "imgSrc": "projects/images/drag.png",
+    "categories": ["mis en avant", "js"],
+    "link": "/projects/drag",
+    "description": "Des blocks, des elements, du drag-and-drop."
 },
 
 {
