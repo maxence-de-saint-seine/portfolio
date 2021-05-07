@@ -58,6 +58,7 @@ async function displayArticle(article) {
 
     let img = document.createElement('img')
     img.setAttribute('src', article.imgSrc)
+    img.setAttribute('class', 'article-img')
     item.appendChild(img)
 
     let title = document.createElement('div')

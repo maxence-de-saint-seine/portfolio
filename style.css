@@ -68,6 +68,7 @@ nav ul li a{
 }
 /*#endregion*/
 
+/*#region FILTER */
 #filter-button{
     position: absolute;
     background-color: #fff;
@@ -103,40 +104,41 @@ nav ul li a{
 #description{
     text-align: center;
 }
-
+/*#endregion*/
 
 /*#region ITEMS */
 .grid{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: center;
+    grid-template-columns: repeat(auto-fit, 345px);
 }
 .grid a{
     text-decoration: none;
 }
-.grid img{
-    width: 325px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-    
+.article-img{
+    background-color: #333;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    border-radius: 10px; 
 }
 .item{
     background-color: rgb(33, 46, 71);
     color: white;
 
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin: 10px 10px;
     width: 325px;
-    height: auto;
-    padding: .4rem;
 
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     overflow: hidden;
 
     position: relative;
+    transition: transform ease-out 100ms;
+}
+.item:hover{
+    transform: scale(1.05);
 }
 .article-title{
     font-size: 20px;
@@ -159,27 +161,33 @@ nav ul li a{
     font-size: 15px;
     font-weight: normal;
     margin-bottom: 50px;
+    color:rgb(210, 210, 210);
 }
 .article-categories{
     margin: 10px 10px;
     color: #949494;
-
     position: absolute;
     bottom: 0;
 }
 .article-category{
     font-size: 15px;
     font-weight: 400;
-
     margin-right: 10px;
     color: inherit;
 }
 img.article-category-logo{
     height: 25px;
-    width: 25px;
 }
 /*#endregion*/
 
-iframe{
+/*#region other pages*/
+.pdf{
     max-height: 85vh;
 }
+.contact-info{
+    list-style: none;
+}
+.contact-info li{
+    margin-bottom: 10px;
+}
+/*#endregion*/
